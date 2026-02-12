@@ -1,0 +1,18 @@
+"use client";
+
+import { useState } from "react";
+
+export function useAuth() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const login = async (email: string, password: string) => {
+    // TODO: Implémenter la logique d'authentification
+    setIsAuthenticated(true);
+  };
+
+  const logout = () => {
+    setIsAuthenticated(false);
+  };
+
+  return { isAuthenticated, login, logout };
+}
