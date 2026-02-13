@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 export function Chart() {
     return (
-        <Card>
+        <Card className="shadow-sm">
             <CardHeader>
                 <CardTitle>Graphique</CardTitle>
             </CardHeader>

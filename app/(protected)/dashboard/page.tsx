@@ -1,5 +1,6 @@
 import { StatsCard } from "@/features/dashboard/components/stats-card";
 import { Chart } from "@/features/dashboard/components/chart";
+import { Users, UserCheck, DollarSign } from "lucide-react";
 
 export default function DashboardPage() {
     return (
@@ -16,19 +17,19 @@ export default function DashboardPage() {
                     title="Utilisateurs totaux"
                     value="1,234"
                     description="+20% par rapport au mois dernier"
-                    icon="👥"
+                    icon={Users}
                 />
                 <StatsCard
                     title="Utilisateurs actifs"
                     value="567"
                     description="+12% par rapport au mois dernier"
-                    icon="✅"
+                    icon={UserCheck}
                 />
                 <StatsCard
                     title="Revenu"
                     value="89,000 €"
                     description="+8% par rapport au mois dernier"
-                    icon="💰"
+                    icon={DollarSign}
                 />
             </div>
 

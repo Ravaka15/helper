@@ -5,6 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { MessageList } from "./message-list";
+import { Send } from "lucide-react";
 
 interface Message {
     id: string;
@@ -47,7 +48,7 @@ export function ChatInterface() {
     };
 
     return (
-        <Card className="h-full flex flex-col">
+        <Card className="h-full flex flex-col shadow-sm">
             <CardHeader>
                 <CardTitle>Conversation</CardTitle>
             </CardHeader>
@@ -73,7 +74,14 @@ export function ChatInterface() {
                             className="flex-1"
                         />
                         <Button type="submit" disabled={loading || !input.trim()}>
-                            {loading ? "..." : "Envoyer"}
+                            {loading ? (
+                                "..."
+                            ) : (
+                                <>
+                                    <Send className="h-4 w-4 mr-2" />
+                                    Envoyer
+                                </>
+                            )}
                         </Button>
                     </form>
                 </div>
