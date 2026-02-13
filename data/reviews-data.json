@@ -1,0 +1,150 @@
+{
+    "globalStats": {
+        "totalReviews": 1234,
+        "averageScore": 4.2,
+        "positivePercentage": 68,
+        "negativePercentage": 15,
+        "neutralPercentage": 17
+    },
+    "sentimentTrend": [
+        {
+            "date": "2024-01",
+            "positive": 65,
+            "negative": 20,
+            "neutral": 15
+        },
+        {
+            "date": "2024-02",
+            "positive": 70,
+            "negative": 18,
+            "neutral": 12
+        },
+        {
+            "date": "2024-03",
+            "positive": 68,
+            "negative": 15,
+            "neutral": 17
+        },
+        {
+            "date": "2024-04",
+            "positive": 72,
+            "negative": 12,
+            "neutral": 16
+        },
+        {
+            "date": "2024-05",
+            "positive": 75,
+            "negative": 10,
+            "neutral": 15
+        },
+        {
+            "date": "2024-06",
+            "positive": 68,
+            "negative": 15,
+            "neutral": 17
+        }
+    ],
+    "categoryDistribution": [
+        {
+            "name": "Hôtel",
+            "value": 320,
+            "percentage": 26
+        },
+        {
+            "name": "Chambre",
+            "value": 280,
+            "percentage": 23
+        },
+        {
+            "name": "Emplacement",
+            "value": 220,
+            "percentage": 18
+        },
+        {
+            "name": "Service",
+            "value": 190,
+            "percentage": 15
+        },
+        {
+            "name": "Restaurant",
+            "value": 140,
+            "percentage": 11
+        },
+        {
+            "name": "Bar",
+            "value": 84,
+            "percentage": 7
+        }
+    ],
+    "topKeywords": [
+        {
+            "text": "propre",
+            "value": 145
+        },
+        {
+            "text": "confortable",
+            "value": 132
+        },
+        {
+            "text": "accueillant",
+            "value": 128
+        },
+        {
+            "text": "spacieux",
+            "value": 115
+        },
+        {
+            "text": "moderne",
+            "value": 98
+        },
+        {
+            "text": "calme",
+            "value": 87
+        },
+        {
+            "text": "vue",
+            "value": 76
+        },
+        {
+            "text": "petit-déjeuner",
+            "value": 72
+        },
+        {
+            "text": "personnel",
+            "value": 68
+        },
+        {
+            "text": "piscine",
+            "value": 54
+        }
+    ],
+    "alerts": [
+        {
+            "id": "1",
+            "type": "negative",
+            "category": "Chambre",
+            "message": "Avis très négatif détecté - Problème de propreté",
+            "score": 0.15,
+            "date": "2024-06-15",
+            "priority": "high"
+        },
+        {
+            "id": "2",
+            "type": "negative",
+            "category": "Service",
+            "message": "Avis négatif - Temps d'attente trop long",
+            "score": 0.28,
+            "date": "2024-06-14",
+            "priority": "medium"
+        },
+        {
+            "id": "3",
+            "type": "negative",
+            "category": "Restaurant",
+            "message": "Avis négatif - Qualité des repas",
+            "score": 0.32,
+            "date": "2024-06-13",
+            "priority": "medium"
+        }
+    ]
+}
