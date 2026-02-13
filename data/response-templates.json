@@ -1,0 +1,17 @@
+{
+    "positive": [
+        "Merci beaucoup pour votre retour positif ! Nous sommes ravis que votre séjour vous ait plu. Au plaisir de vous accueillir à nouveau.",
+        "Nous vous remercions pour vos aimables commentaires. Toute l'équipe est heureuse d'avoir contribué à votre satisfaction.",
+        "Quel plaisir de lire votre avis ! Merci d'avoir pris le temps de partager votre expérience positive."
+    ],
+    "negative": [
+        "Nous sommes sincèrement désolés que votre expérience n'ait pas été à la hauteur de vos attentes. Nous prenons vos remarques très au sérieux et mettons tout en œuvre pour améliorer nos services.",
+        "Merci d'avoir partagé vos préoccupations. Nous regrettons les désagréments rencontrés et souhaitons vous assurer que nous travaillons activement à résoudre ces problèmes.",
+        "Nous vous présentons nos excuses pour les inconvénients subis. Votre retour est précieux et nous aide à nous améliorer. N'hésitez pas à nous contacter directement pour en discuter."
+    ],
+    "neutral": [
+        "Merci pour votre retour. Nous prenons note de vos remarques et travaillons continuellement à améliorer nos services.",
+        "Nous vous remercions d'avoir partagé votre expérience. Vos commentaires nous aident à progresser.",
+        "Merci pour votre avis. Nous espérons pouvoir vous offrir une expérience encore meilleure lors de votre prochaine visite."
+    ]
+}

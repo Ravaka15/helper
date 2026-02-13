@@ -1,0 +1,73 @@
+{
+    "analyses": [
+        {
+            "id": "1",
+            "content": "Chambre très propre et spacieuse. Le personnel était accueillant et serviable. Petit déjeuner excellent avec beaucoup de choix.",
+            "categories": [
+                "Chambre",
+                "Service",
+                "Restaurant"
+            ],
+            "sentiment": "positive",
+            "scores": {
+                "positive": 0.92,
+                "negative": 0.02,
+                "neutral": 0.06
+            },
+            "keywords": [
+                "propre",
+                "spacieuse",
+                "accueillant",
+                "excellent"
+            ],
+            "summary": "Avis très positif concernant la propreté de la chambre, la qualité du service et du petit déjeuner.",
+            "language": "fr",
+            "date": "2024-06-15T10:30:00Z"
+        },
+        {
+            "id": "2",
+            "content": "L'emplacement est parfait, proche du centre-ville. Cependant, la chambre était bruyante à cause de la rue.",
+            "categories": [
+                "Emplacement",
+                "Chambre"
+            ],
+            "sentiment": "neutral",
+            "scores": {
+                "positive": 0.45,
+                "negative": 0.35,
+                "neutral": 0.20
+            },
+            "keywords": [
+                "emplacement",
+                "centre-ville",
+                "bruyante"
+            ],
+            "summary": "Avis mitigé : bon emplacement mais nuisances sonores dans la chambre.",
+            "language": "fr",
+            "date": "2024-06-14T15:20:00Z"
+        },
+        {
+            "id": "3",
+            "content": "Très déçu par la propreté. La salle de bain n'était pas nettoyée correctement. Le service client était inexistant.",
+            "categories": [
+                "Chambre",
+                "Service"
+            ],
+            "sentiment": "negative",
+            "scores": {
+                "positive": 0.05,
+                "negative": 0.88,
+                "neutral": 0.07
+            },
+            "keywords": [
+                "déçu",
+                "propreté",
+                "salle de bain",
+                "service"
+            ],
+            "summary": "Avis très négatif sur la propreté et l'absence de service client.",
+            "language": "fr",
+            "date": "2024-06-13T09:15:00Z"
+        }
+    ]
+}
